@@ -2,11 +2,13 @@
 title: CCVL | Vacances cacheres
 ---
 
-
-<div class= "text-center banner" style="background-image: url('https://images.unsplash.com/photo-1437915015400-137312b61975?q=80&fm=jpg&s=404211ca7568f20b30685a7413f5f30c')">
-  <h1>Où irez-vous cet hiver ?</h1>
-  <p>Envolez-vous pour la Thailande, Israël ou les Etats-Unis</p>
-</div>
+<section id="homepage-banner">
+  <div class= "text-center banner" style="background-image: url('https://unsplash.it/600/600/?gravity=east')">
+    <h1>Où irez-vous cet hiver ?</h1>
+    <p>Envolez-vous pour la Thailande, Israël ou les Etats-Unis</p>
+    <button class="program-btn"><%= link_to "Les programmes", "#seasonal"%></button>
+  </div>
+</section>
 <section id="newsletter">
   <div class="container" >
     <div class="newsletter text-center">
@@ -21,17 +23,17 @@ title: CCVL | Vacances cacheres
 <section id="permanent">
   <div class="container" >
     <div class="row">
-      <div class="col-xs-12 col-md-3 col-md-offset-2 text-center card">
+      <div class="col-xs-12 col-md-3 col-md-offset-1 text-center card">
         <h4 class="text-center"><%= image_tag "israel.png", alt: "Voyage en Israël"%>Israël | Autômne et Hiver 2015</h4><hr>
         <p>Jérusalem, Tel-Aviv, Eilat, Netanya...Vos hôtels aux meilleurs prix!</p>
         <button class="btn-primary">En savoir plus</button>
       </div>
-      <div class="col-xs-12 col-md-3 text-center card">
+      <div class="col-xs-12 col-md-3 col-md-offset-1 text-center card">
         <h4 class="text-center"><%= image_tag "event.png", alt: "Evènements en Israël"%>Vos évènements en Israël</h4><hr>
         <p>Mariages, bar-mitsva, congrès, séminaires..</p>
         <button class="btn-primary">En savoir plus</button>
       </div>
-      <div class="col-xs-12 col-md-3 text-center card">
+      <div class="col-xs-12 col-md-3 col-md-offset-1 text-center card">
         <h4 class="text-center"><%= image_tag "discount.png", alt: "Promotion Israël"%>Vos billets d'avion à prix réduits!</h4><hr>
         <p>Trouvez les meilleurs prix au départ de Paris</p>
         <button class="btn-primary">En savoir plus</button>
@@ -43,12 +45,31 @@ title: CCVL | Vacances cacheres
         <p>Trouvez les meilleurs prix au départ de Paris</p>
         <button class="btn-primary text-center">En savoir plus</button>
       </div>
-      <div class="col-xs-12 col-md-3 text-center card">
+      <div class="col-xs-12 col-md-3 col-md-offset-1 text-center card">
         <h4 class="text-center"><%= image_tag "group.png", alt: "Voyage en groupe en Israël"%>Groupes constitués</h4><hr>
         <p>Vous êtes une association, un centre communautaire, une communauté, un CE, ou tout simplement un groupe d'amis ou de familles, dès 15 personnes, pour un séjour, un voyage, un weekend, un séminaire, quelle que soit la destination souhaitée, nous vous offrons un voyage clé-en-main!</p>
         <button class="btn-primary">En savoir plus</button>
       </div>
-
     </div>
  </div>
+</section>
+<section id="seasonal" >
+
+  <div class="seasonal" style="background-image: url('https://unsplash.it/600/600/?gravity=east')">
+    <div class="container">
+      <div>
+        <div class="col-xs-12 col-md-3 col-md-offset-3 text-center card">
+          <h4 class="text-center"><%= image_tag "group.png", alt: "Voyage en groupe en Israël"%>Groupes constitués</h4><hr>
+          <p>Vous êtes une association, un centre communautaire, une communauté, un CE, ou tout simplement un groupe d'amis ou de familles, dès 15 personnes, pour un séjour, un voyage, un weekend, un séminaire, quelle que soit la destination souhaitée, nous vous offrons un voyage clé-en-main!</p>
+          <button class="btn-primary">En savoir plus</button>
+        </div>
+        <div class="col-xs-12 col-md-3 col-md-offset-1 text-center card">
+          <h4 class="text-center"><%= image_tag "group.png", alt: "Voyage en groupe en Israël"%>Groupes constitués</h4><hr>
+          <p>Vous êtes une association, un centre communautaire, une communauté, un CE, ou tout simplement un groupe d'amis ou de familles, dès 15 personnes, pour un séjour, un voyage, un weekend, un séminaire, quelle que soit la destination souhaitée, nous vous offrons un voyage clé-en-main!</p>
+          <button class="btn-primary">En savoir plus</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>

@@ -5,12 +5,31 @@
   position: relative;
   color: white
 }
+.program-btn{
+  border: #abaaaf;
+  color: #abaaaf;
+  background-color: none;
+}
 #permanent {
   background-color: #abaaaf;
   size: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
 }
 #newsletter {
   border-bottom: 2px solid #828184;
   border-top: 2px solid #828184;
+}
+#homepage-banner {
+  background-image: center;
+}
+#seasonal {
+  background: rgba(0,0,0,0.6);
+}
+.seasonal {
+  background-size: cover;
+  background: rgba(0,0,0,0.6);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }

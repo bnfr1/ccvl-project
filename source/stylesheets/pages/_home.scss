@@ -11,7 +11,7 @@
   background-color: none;
 }
 #permanent {
-  background-color: #abaaaf;
+  background-color: #6ca6c1;
   size: cover;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -26,10 +26,12 @@
 }
 #seasonal {
   background: rgba(0,0,0,0.6);
+  background-repeat: none;
 }
 .seasonal {
   background-size: cover;
   background: rgba(0,0,0,0.6);
   padding-top: 15px;
   padding-bottom: 15px;
+  background-repeat: none;
 }

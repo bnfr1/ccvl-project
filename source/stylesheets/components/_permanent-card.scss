@@ -1,0 +1,27 @@
+.permanent-card{
+  position: relative;
+  height: 500px;
+  background-color: white;
+  box-shadow: 2px 2px 3px $grey-dark;
+  padding: 5px;
+  z-index: 2;
+  h4 {
+    font-size: 24px;
+    color: $grey-darker;
+  }
+  h5 {
+    font-size: 20px;
+    color: $grey-darker;
+  }
+  p {
+    font-size: 13px;
+    color: red;
+  }
+}
+.permanentcard-content {
+  color: $grey-dark;
+}
+.permanentcard-btn {
+  position: absolute;
+  bottom: 20px;
+}

@@ -6,7 +6,7 @@ title: CCVL | Vacances cacheres
     <div class="banner-gradient"></div>
     <div class="banner-content">
       <h1>Où irez-vous cet été?</h1>
-      <p>Thaïlande, Israël, Etats-Unis? Prenez vos tongues, on s'occupe du reste..</p>
+      <p>Thaïlande, Israël, Etats-Unis? Prenez vos tongues, on s'occupe du reste!</p>
       <a class="btn btn-danger btn-lg" href="#seasonal">Les programmes</a>
     </div>
   </div>
@@ -88,33 +88,34 @@ title: CCVL | Vacances cacheres
 </section>
 <section id="permanent">
   <div class="banner text-center" style="background-image: url('https://unsplash.it/1000/500?image=75')">
+    <h2 class="permanent-title">Nous sommes à votre écoute toute l'année!</h2><br>
     <div class="banner-gradient"></div>
       <div class="container" >
         <div class="row">
           <div class="col-xs-12 col-md-3  text-center permanent-card">
-            <h4 class="text-center"><%= image_tag "israel.png", alt: "Voyage en Israël"%>Israël</h4><br><h5>Autômne et Hiver 2015</h5><hr>
+            <h4 class="text-center"><%= image_tag "israel.png", alt: "Voyage en Israël"%> Israël</h4><br><h5>Autômne et Hiver 2015</h5><hr>
             <p class="permanentcard-content">Jérusalem, Tel-Aviv, Eilat, Netanya...Vos hôtels aux meilleurs prix!</p>
-            <button class="btn-primary permanentcard-btn">En savoir plus</button>
+            <a href="group.html"><button class="btn-primary permanentcard-btn">En savoir plus</button></a>
           </div>
           <div class="col-xs-12 col-md-3 col-md-offset-1 text-center permanent-card">
-            <h4 class="text-center"><%= image_tag "event.png", alt: "Evènements en Israël"%>Vos évènements en Israël</h4><hr>
+            <h4 class="text-center"><%= image_tag "event.png", alt: "Evènements en Israël"%> Vos évènements en Israël</h4><hr>
             <p class="permanentcard-content">Mariages, bar-mitsva, congrès, séminaires..</p>
             <button class="btn-primary permanentcard-btn">En savoir plus</button>
           </div>
           <div class="col-xs-12 col-md-3 col-md-offset-1 text-center permanent-card">
-            <h4 class="text-center"><%= image_tag "discount.png", alt: "Promotion Israël" %>Vos billets d'avion à prix réduits!</h4><hr>
+            <h4 class="text-center"><%= image_tag "discount.png", alt: "Promotion Israël" %> Vos billets d'avion à prix réduits!</h4><hr>
             <p class="permanentcard-content">Trouvez les meilleurs prix au départ de Paris</p>
             <button class="btn-primary permanentcard-btn">En savoir plus</button>
           </div>
         </div> <br>
         <div class="row">
           <div class="col-xs-12 col-md-3 col-md-offset-2 text-center permanent-card">
-            <h4 class="text-center"><%= image_tag "discount.png", alt: "Promotion Israël" %>Vos billets d'avion à prix réduits!</h4><hr>
+            <h4 class="text-center"><%= image_tag "discount.png", alt: "Promotion Israël" %> Vos billets d'avion à prix réduits!</h4><hr>
             <p class="permanentcard-content">Trouvez les meilleurs prix au départ de Paris</p>
             <button class="btn-primary text-center permanentcard-btn">En savoir plus</button>
           </div>
           <div class="col-xs-12 col-md-3 col-md-offset-1 text-center permanent-card">
-            <h4 class="text-center"><%= image_tag "group.png", alt: "Voyage en groupe en Israël"%>Groupes constitués</h4><hr>
+            <h4 class="text-center"><%= image_tag "group.png", alt: "Voyage en groupe en Israël"%> Groupes constitués</h4><hr>
             <p class="permanentcard-content">Vous êtes une association, un centre communautaire, où n'importe quelle organisation. Quelle que soit la destination souhaitée, nous vous offrons un voyage clé-en-main!</p>
             <button class="btn-primary permanentcard-btn">En savoir plus</button>
           </div>
@@ -122,3 +123,22 @@ title: CCVL | Vacances cacheres
       </div>
   </div>
 </section>
+<section>
+  <div id="questioncircle">
+    <% link_to "contact" do %>
+      <%= image_tag "questionmark.png" %>
+    <% end %>
+  </div>
+<!--   <div class="col-xs-2">
+    <img alt="Question" class=" img-popover" data-content="<h4>Une question?</h4><p>N'hésitez pas à nous contacter!</p>">
+  </div> -->
+</section>
+ <script>
+//   $(document).ready(function(){
+//       $(".img-popover").popover({
+//         html: true,
+//         trigger: "hover",
+//         placement: "right",
+//       });
+//   })
+// </script>

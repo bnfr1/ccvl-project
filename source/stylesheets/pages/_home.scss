@@ -40,11 +40,27 @@
 #permanent {
   size: cover;
 }
-
+.permanent-title {
+  color: white;
+  z-index: 10;
+}
 #newsletter {
   border-bottom: 2px solid rgba(255, 0, 0, 0.2);
   border-top: 2px solid rgba(255, 0, 0, 0.2);
 }
 #seasonal {
   background-color: rgba(255, 224, 163, 0.45);
+}
+.parallax {
+  scroll-behavior: smooth;
+}
+#questioncircle {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  z-index: 10;
+  box-shadow: 2px 2px 3px $grey-dark;
 }

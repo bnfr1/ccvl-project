@@ -1,0 +1,14 @@
+.event-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.event-card {
+  background-color: rgba(255,255,255,0.5);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 2px 2px 3px $grey-darker;
+  padding: 15px;
+}
+.advantage-description {
+  font-style: italic;
+}

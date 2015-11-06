@@ -1,0 +1,3 @@
+<html><body><h1>File Not Found</h1><p>images/logo-footer.png</p>
+        <p>If this is an an asset from a gem, add <tt>sprockets.import_asset 'logo-footer.png'</tt>
+        to your <tt>config.rb</tt>.</body>
